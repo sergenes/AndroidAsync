@@ -33,7 +33,7 @@ public class StreamBody implements AsyncHttpRequestBody<InputStream> {
         throw new AssertionError("not implemented");
     }
 
-    public static final String CONTENT_TYPE = "application/binary";
+    public static final String CONTENT_TYPE = "binary/octet-stream";
     @Override
     public String getContentType() {
         return contentType;
